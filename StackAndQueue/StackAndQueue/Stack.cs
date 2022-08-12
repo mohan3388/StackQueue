@@ -31,7 +31,7 @@ namespace StackAndQueue
 
             Console.WriteLine("Top most element is: "+ stack.Peek());
            
-          
-        }
+           }
+      
     }
 }
