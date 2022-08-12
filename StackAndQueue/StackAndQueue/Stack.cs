@@ -19,6 +19,19 @@ namespace StackAndQueue
             {
                 Console.WriteLine(item);
             }
-}
+
+            Console.WriteLine("After pop");
+            stack.Pop();
+           
+           
+            foreach (int item in stack)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("Top most element is: "+ stack.Peek());
+           
+          
+        }
     }
 }
