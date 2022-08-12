@@ -22,7 +22,11 @@ namespace StackAndQueue
                 Console.WriteLine(item);
             }
             Console.WriteLine("After Dequue ");
-
+            queue.Dequeue();
+            foreach (int item in queue)
+            {
+                Console.WriteLine(item);
+            }
           
         }
     }
